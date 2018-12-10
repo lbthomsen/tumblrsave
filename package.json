@@ -1,0 +1,33 @@
+{
+  "name": "tumblrsave",
+  "version": "0.0.1",
+  "description": "Backup and save tumblr blog",
+  "main": "tumblrsave",
+  "bin": {
+    "tumblrsave": "tumblrsave.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbthomsen/tumblrsave.git"
+  },
+  "keywords": [
+    "tumblr"
+  ],
+  "author": "Lars Boegild Thomsen <lbthomsen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbthomsen/tumblrsave/issues"
+  },
+  "homepage": "https://github.com/lbthomsen/tumblrsave#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "fs-extra": "^7.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19",
+    "xml2js-es6-promise": "^1.1.1"
+  }
+}

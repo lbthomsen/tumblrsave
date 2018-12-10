@@ -111,6 +111,7 @@ async function doFetch() {
             post.postType = origPost.$.type;
             post.tumblrUrl = origPost.$.url;
             post.tumblrSlug = origPost.$.slug;
+            post.tags = origPost.tag
 
             blog.posts.push(post);
 
